@@ -12,7 +12,7 @@ System.out.println("Select repetitions (factor2) ");
 Integer o = scanner2.nextInt();
 System.out.println("Multiples of " + n +" until "+ o + " are: " );
 for(int x = 1; x <=o; x++) 
-System.out.printf("%d * %d = %d %n", x, n,x*n);
+System.out.printf("%d * %d = %d %n", n, x,x*n);
   // System.out.println(x  +  n + x*n);
   
 scanner.close();
